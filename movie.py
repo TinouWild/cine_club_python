@@ -7,7 +7,6 @@ DATA_FILE = os.path.join(CUR_DIR, "data", "movies.json")
 
 
 def get_movies():
-
     with open(DATA_FILE, "r") as f:
         movies_title = json.load(f)
 
